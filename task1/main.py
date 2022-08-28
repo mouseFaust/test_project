@@ -18,6 +18,6 @@ try:
             break
         result.append(array[i])
     for arr in result:
-        print(f"{arr}\n")
+        print(f"{arr}")
 except:
     print("Введены неверные данные")
