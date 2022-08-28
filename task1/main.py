@@ -3,7 +3,11 @@ try:
     data = [int(float(arr)) for arr in input().split()]
     n = data[0]
     array = list(range(1, n + 1))
-    m = data[1]
+    if len(data) < 2:
+        print("Длину комбинаций m: ")
+        m = int(float(input()))
+    else:
+        m = data[1]
     result = []
     result.append(array[0])
     i = 0
